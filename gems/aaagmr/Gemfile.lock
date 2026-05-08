@@ -78,6 +78,7 @@ DEPENDENCIES
   aaagmr!
   rake (~> 13.0)
   rspec (~> 3.13)
+  rubocop (~> 1.84)
   standard (~> 1.54)
 
 BUNDLED WITH
