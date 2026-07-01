@@ -1,0 +1,4 @@
+puts sprintf("%<number>d %04<number>x", number: 123)
+puts sprintf("%08<number>b, '%5{number}'", number: 123)
+puts sprintf("%6<k>s: %<v>s", k: "Dave", v: "Ruby")
+puts sprintf("%6{k}: %{v}", k: "Dave", v: "Ruby")

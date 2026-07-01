@@ -1,0 +1,5 @@
+puts sprintf("%d %04x", 123, 123)
+puts sprintf("%08b '%4s'", 123, 123)
+puts sprintf("%1$*2$s %2$d %1$s", "hello", 8)
+puts sprintf("%1$*2$s %2$d", "hello", -8)
+puts sprintf("%+g:% g:%-g", 1.23, 1.23, 1.23) 
